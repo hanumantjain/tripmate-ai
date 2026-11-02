@@ -1,1 +1,2 @@
-# tripmate-ai
+# TripMate-AI A Multi Agent Travel Planner with LangGraph
+
