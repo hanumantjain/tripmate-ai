@@ -211,7 +211,7 @@ def run_travel_agent(user_input: str, thread_id: str | None = None):
         },
         config=config
     )
-    final_answer = result["messages"][-1].pcontent
+    final_answer = result["messages"][-1].content
     return {
             "thread_id": thread_id,
             "answer": final_answer,
