@@ -10,6 +10,8 @@ from pydantic import BaseModel
 import uvicorn
 
 from backend import run_travel_agent
+import nest_asyncio
+nest_asyncio.apply()
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -107,3 +109,6 @@ if __name__ == "__main__":
         port=8000,
         reload=True
     )
+
+
+
